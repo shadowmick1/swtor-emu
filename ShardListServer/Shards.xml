@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Shards ProxyIP="192.168.1.11" ProxyPort="8995">
+  <Shard ID="1" Name="Sylar Galaxy" Region="NA" TZ="-600" Lang="en" />
+  <Shard ID="2" Name="Sylar Galaxy Clone" Region="EU" TZ="-600" Lang="en" />
+  <Shard ID="3" Name="Sylar Galaxy Clone 2" Region="EU" TZ="-600" Lang="en" />
+  <Shard ID="4" Name="Sylar Galaxy Nuke Trooper Test" Region="EU" TZ="-600" Lang="en" />
+  <Shard ID="5" Name="Sylar Galaxy Jedi Wrath" Region="EU" TZ="-600" Lang="en" />
+</Shards>

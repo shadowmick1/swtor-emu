@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Opcodes>
+  <Client>
+    <Packet ID="0x6731C5AF" Name="CMsg_ClientSignatureResponse" /><!-- client gives the signature of object to server -->
+    <Packet ID="0x5FE920D4" Name="CMsg_ServerSignatureRequest" /><!-- client wants objects for service connections ? -->
+    <Packet ID="0x43DB3479" Name="CMsg_SocketClose" /><!-- client disconnects -->
+    <Packet ID="0x2195CC8A" Name="CMsg_ClientModules"/><!-- list of dlls loaded by swtor.exe ?-->
+    <Packet ID="0x420923E0" Name="CMsg_ServerAddressRequest" /><!-- client requests some server address (maybe dns address of services requested previously ?)-->
+    <Packet ID="0xFB2047CE" Name="CMsg_CharacterListRequest" /><!-- client requests character list -->
+    <Packet ID="0xD130EAB9" Name="CMsg_CharacterCreateRequest" /><!-- client wants to create a character -->
+    <Packet ID="0xCFFE7758" Name="CMsg_CharacterSelectRequest" /><!-- client selected a character for entering world -->
+    <Packet ID="0x2195CC8A" Name="CMsg_ProcessesResponse" /><!-- client list of processes in memory -->
+    
+    <!-- unknown packets-->
+    <Packet ID="0x0C0BA34F" Name="CMsg_0C0BA34F" />
+    <Packet ID="0xD0D38F43" Name="CMsg_D0D38F43" /><!-- idk Character Selection status update -->
+    <Packet ID="0xC26464A9" Name="CMsg_C26464A9" />
+  </Client>
+  
+  <Server>
+    <Packet ID="0x8B0D492F" Name="SMsg_ServerSignatureResponse" /><!-- server sends signature of client connection -->
+    <Packet ID="0xD4BA5CFB" Name="SMsg_XMLSettings" /><!-- server gives settings to client -->
+    <Packet ID="0xA609E6A7" Name="SMsg_ClientSignatureRequest" /><!-- server wants the signature of an object -->
+    <Packet ID="0x8D576F7B" Name="SMsg_ServerAddressResponse" />
+    <Packet ID="0x59AD170D" Name="SMsg_CharacterListResponse" />
+    <Packet ID="0x5A4151FC" Name="SMsg_CharacterCreateResponse" />
+    <Packet ID="0xA0D00B3A" Name="SMsg_CharacterSelectResponse" /><!-- server agrees that such char connects -->
+    <Packet ID="0x246462DB" Name="SMsg_CharacterCurrentMap" /><!-- server sends map of this char -->
+    <Packet ID="0x7AD491DA" Name="SMsg_CharacterAreaEnter" />
+    <Packet ID="0x13509F15" Name="SMsg_CharacterAreaServerSpec" />
+    
+    <!-- unknown packets-->
+    <Packet ID="0x25ACBEF4" Name="SMsg_0x25ACBEF4" />
+    <Packet ID="0x35BEBAA5" Name="SMsg_0x35BEBAA5" />
+    <Packet ID="0xECB59833" Name="SMsg_0xECB59833" />
+    <Packet ID="0x04CCE2BB" Name="SMsg_0x04CCE2BB" />
+    <Packet ID="0x4BD75535" Name="SMsg_0x4BD75535" />
+  </Server>
+</Opcodes>

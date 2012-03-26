@@ -1,0 +1,17 @@
+﻿<Window x:Class="ProtocolWalker.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Protocol Walker for SWTOR" Height="800" Width="1280" Loaded="Window_Loaded" WindowStartupLocation="CenterScreen">
+    <Grid>
+        <Label Content="" Height="28" HorizontalAlignment="Left" Name="lbl_capturingOn" VerticalAlignment="Top" Width="425" FontSize="10" />
+        <TabControl Height="719" HorizontalAlignment="Left" Margin="9,33,0,0" Name="tabControl1" VerticalAlignment="Top" Width="1239" FontSize="10">
+            
+        </TabControl>
+        <Menu Height="23" HorizontalAlignment="Left" Margin="1189,5,0,0" Name="menu1" VerticalAlignment="Top" Width="59">
+            <MenuItem Header="Program">
+                <MenuItem Header="Save current session ..." Click="MenuItem_Save_Click" />
+                <MenuItem Header="Close current session ..." />
+            </MenuItem>
+        </Menu>
+    </Grid>
+</Window>

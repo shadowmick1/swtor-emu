@@ -1,0 +1,702 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<modelStoreModel xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm4="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm5="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/VisualStudio/TeamArchitect/SequenceDesigner"
+  dslVersion="1.0.0.0"
+  Id="887e0cbe-042f-4880-bfb2-347d4636dacf"
+  name="Handshakes" xmlns="http://schemas.microsoft.com/dsltools/ModelStore">
+  <profileInstances>
+    <packageHasProfileInstances
+      Id="0caec977-1f8c-4ba3-a7db-8cc9ad9cc73b">
+      <profileInstance
+        Id="e34d544e-0fea-4ed6-ac5e-1b74119ac791"
+        name="StandardProfileL2" />
+    </packageHasProfileInstances>
+    <packageHasProfileInstances
+      Id="29349502-908c-4fda-9054-c48619c59ed0">
+      <profileInstance
+        Id="532ea607-fb19-44b8-8502-3351b05452be"
+        name="StandardProfileL3" />
+    </packageHasProfileInstances>
+  </profileInstances>
+  <packagedElements>
+    <packageHasNamedElement>
+      <interaction
+        Id="18f5882a-7a9e-4ad9-9c97-6084ecb0e1bd"
+        name="Shardlist"
+        collapseFragmentsFlag="false"
+        isActiveClass="false"
+        isAbstract="false"
+        isLeaf="false"
+        isReentrant="false">
+        <fragments>
+          <behaviorExecutionSpecification
+            Id="5106162a-d12b-4398-bd31-5e8240f5f1ac"
+            name="BehaviorExecutionSpecification1">
+            <coveredLifelines>
+              <lifelineMoniker
+                Id="f3ca4cd3-1808-428f-bde9-32f1655f3853"
+                LastKnownName="theServer"
+                LastKnownLocation="Handshakes.uml" />
+            </coveredLifelines>
+            <finish>
+              <executionOccurrenceSpecificationMoniker
+                Id="c82f2d23-dfe4-464b-8c81-6cd6a67069c1"
+                LastKnownName="ExecutionOccurrenceSpecification2"
+                LastKnownLocation="Handshakes.uml" />
+            </finish>
+            <start>
+              <executionOccurrenceSpecificationMoniker
+                Id="c1a85f5a-b27a-4222-87b3-557a5befd859"
+                LastKnownName="ExecutionOccurrenceSpecification1"
+                LastKnownLocation="Handshakes.uml" />
+            </start>
+            <nestedOccurrences>
+              <messageOccurrenceSpecificationMoniker
+                Id="f4dd7e80-6e97-4d89-9273-d9c50ee33bbe"
+                LastKnownName="MessageOccurrenceSpecification2"
+                LastKnownLocation="Handshakes.uml" />
+              <messageOccurrenceSpecificationMoniker
+                Id="1c88a73b-1374-4eee-86e9-2c4d272f3f6c"
+                LastKnownName="MessageOccurrenceSpecification3"
+                LastKnownLocation="Handshakes.uml" />
+            </nestedOccurrences>
+          </behaviorExecutionSpecification>
+          <executionOccurrenceSpecification
+            Id="c1a85f5a-b27a-4222-87b3-557a5befd859"
+            name="ExecutionOccurrenceSpecification1">
+            <event>
+              <executionOccurrenceSpecificationReferencesEvent>
+                <executionEventMoniker
+                  Id="ccf5690e-043c-4a29-b6ee-f474231e83b1"
+                  LastKnownName="ExecutionEvent"
+                  LastKnownLocation="Handshakes.uml" />
+              </executionOccurrenceSpecificationReferencesEvent>
+            </event>
+            <covered>
+              <lifelineMoniker
+                Id="f3ca4cd3-1808-428f-bde9-32f1655f3853"
+                LastKnownName="theServer"
+                LastKnownLocation="Handshakes.uml" />
+            </covered>
+          </executionOccurrenceSpecification>
+          <messageOccurrenceSpecification
+            Id="fa6b4f94-ad16-474c-a9ee-31c9635eafc1"
+            name="MessageOccurrenceSpecification1">
+            <covered>
+              <lifelineMoniker
+                Id="e6006e9c-249b-47b2-99b3-4a594841382a"
+                LastKnownName="theClient"
+                LastKnownLocation="Handshakes.uml" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <messageOccurrenceSpecification
+            Id="f4dd7e80-6e97-4d89-9273-d9c50ee33bbe"
+            name="MessageOccurrenceSpecification2">
+            <covered>
+              <lifelineMoniker
+                Id="f3ca4cd3-1808-428f-bde9-32f1655f3853"
+                LastKnownName="theServer"
+                LastKnownLocation="Handshakes.uml" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <messageOccurrenceSpecification
+            Id="1c88a73b-1374-4eee-86e9-2c4d272f3f6c"
+            name="MessageOccurrenceSpecification3">
+            <covered>
+              <lifelineMoniker
+                Id="f3ca4cd3-1808-428f-bde9-32f1655f3853"
+                LastKnownName="theServer"
+                LastKnownLocation="Handshakes.uml" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <messageOccurrenceSpecification
+            Id="4cf6bf4b-c7f6-4422-888f-c6e85adf9b1f"
+            name="MessageOccurrenceSpecification4">
+            <covered>
+              <lifelineMoniker
+                Id="e6006e9c-249b-47b2-99b3-4a594841382a"
+                LastKnownName="theClient"
+                LastKnownLocation="Handshakes.uml" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <executionOccurrenceSpecification
+            Id="c82f2d23-dfe4-464b-8c81-6cd6a67069c1"
+            name="ExecutionOccurrenceSpecification2">
+            <event>
+              <executionOccurrenceSpecificationReferencesEvent>
+                <executionEventMoniker
+                  Id="bb190fba-409f-49db-b9f5-38196e920573"
+                  LastKnownName="ExecutionEvent"
+                  LastKnownLocation="Handshakes.uml" />
+              </executionOccurrenceSpecificationReferencesEvent>
+            </event>
+            <covered>
+              <lifelineMoniker
+                Id="f3ca4cd3-1808-428f-bde9-32f1655f3853"
+                LastKnownName="theServer"
+                LastKnownLocation="Handshakes.uml" />
+            </covered>
+          </executionOccurrenceSpecification>
+        </fragments>
+        <lifelines>
+          <lifeline
+            Id="e6006e9c-249b-47b2-99b3-4a594841382a"
+            name="theClient"
+            isActor="false"
+            lifelineDisplayName="theClient">
+            <topLevelOccurrences>
+              <messageOccurrenceSpecificationMoniker
+                Id="fa6b4f94-ad16-474c-a9ee-31c9635eafc1"
+                LastKnownName="MessageOccurrenceSpecification1"
+                LastKnownLocation="Handshakes.uml" />
+              <messageOccurrenceSpecificationMoniker
+                Id="4cf6bf4b-c7f6-4422-888f-c6e85adf9b1f"
+                LastKnownName="MessageOccurrenceSpecification4"
+                LastKnownLocation="Handshakes.uml" />
+            </topLevelOccurrences>
+          </lifeline>
+          <lifeline
+            Id="f3ca4cd3-1808-428f-bde9-32f1655f3853"
+            name="theServer"
+            isActor="false"
+            lifelineDisplayName="theServer">
+            <topLevelOccurrences>
+              <executionOccurrenceSpecificationMoniker
+                Id="c1a85f5a-b27a-4222-87b3-557a5befd859"
+                LastKnownName="ExecutionOccurrenceSpecification1"
+                LastKnownLocation="Handshakes.uml" />
+              <executionOccurrenceSpecificationMoniker
+                Id="c82f2d23-dfe4-464b-8c81-6cd6a67069c1"
+                LastKnownName="ExecutionOccurrenceSpecification2"
+                LastKnownLocation="Handshakes.uml" />
+            </topLevelOccurrences>
+          </lifeline>
+        </lifelines>
+        <messages>
+          <message
+            Id="8a651a1a-a1e9-43c1-a4db-9ff31c737456"
+            name="GET /gamepad/shardlist"
+            messageKind="Complete"
+            messageSort="SynchCall"
+            createSelfMessage="false">
+            <sendEvent>
+              <messageOccurrenceSpecificationMoniker
+                Id="fa6b4f94-ad16-474c-a9ee-31c9635eafc1"
+                LastKnownName="MessageOccurrenceSpecification1"
+                LastKnownLocation="Handshakes.uml" />
+            </sendEvent>
+            <receiveEvent>
+              <messageOccurrenceSpecificationMoniker
+                Id="f4dd7e80-6e97-4d89-9273-d9c50ee33bbe"
+                LastKnownName="MessageOccurrenceSpecification2"
+                LastKnownLocation="Handshakes.uml" />
+            </receiveEvent>
+          </message>
+          <message
+            Id="04303935-c816-4dd8-9f92-9cf7e6871e8d"
+            name="&lt;&lt;return&gt;&gt; json based array of shards"
+            messageKind="Complete"
+            messageSort="Reply"
+            createSelfMessage="false">
+            <sendEvent>
+              <messageOccurrenceSpecificationMoniker
+                Id="1c88a73b-1374-4eee-86e9-2c4d272f3f6c"
+                LastKnownName="MessageOccurrenceSpecification3"
+                LastKnownLocation="Handshakes.uml" />
+            </sendEvent>
+            <receiveEvent>
+              <messageOccurrenceSpecificationMoniker
+                Id="4cf6bf4b-c7f6-4422-888f-c6e85adf9b1f"
+                LastKnownName="MessageOccurrenceSpecification4"
+                LastKnownLocation="Handshakes.uml" />
+            </receiveEvent>
+          </message>
+        </messages>
+      </interaction>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <executionEvent
+        Id="ccf5690e-043c-4a29-b6ee-f474231e83b1"
+        name="ExecutionEvent" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <executionEvent
+        Id="bb190fba-409f-49db-b9f5-38196e920573"
+        name="ExecutionEvent" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <interaction
+        Id="e1332b00-a797-46ed-8e43-6c0906abcc79"
+        name="Proxy"
+        collapseFragmentsFlag="false"
+        isActiveClass="false"
+        isAbstract="false"
+        isLeaf="false"
+        isReentrant="false">
+        <fragments>
+          <behaviorExecutionSpecification
+            Id="39906e2c-2c51-447a-9734-122965c61f42"
+            name="BehaviorExecutionSpecification2">
+            <coveredLifelines>
+              <lifelineMoniker
+                Id="d7299400-ca01-4445-a1b5-3891f08c42d6"
+                LastKnownName="theClient"
+                LastKnownLocation="Handshakes.uml" />
+            </coveredLifelines>
+            <finish>
+              <executionOccurrenceSpecificationMoniker
+                Id="37417ff0-e563-4ddd-8dd9-3ff4894bc544"
+                LastKnownName="ExecutionOccurrenceSpecification4"
+                LastKnownLocation="Handshakes.uml" />
+            </finish>
+            <start>
+              <executionOccurrenceSpecificationMoniker
+                Id="3b407fc6-7225-4f67-a41b-36fdf77b8f70"
+                LastKnownName="ExecutionOccurrenceSpecification3"
+                LastKnownLocation="Handshakes.uml" />
+            </start>
+            <nestedOccurrences>
+              <messageOccurrenceSpecificationMoniker
+                Id="b6d37768-bb7b-4220-82a5-7f5a10e5c243"
+                LastKnownName="MessageOccurrenceSpecification6"
+                LastKnownLocation="Handshakes.uml" />
+              <messageOccurrenceSpecificationMoniker
+                Id="ac65bc27-df61-4efc-96ae-1879621044ed"
+                LastKnownName="MessageOccurrenceSpecification7"
+                LastKnownLocation="Handshakes.uml" />
+            </nestedOccurrences>
+          </behaviorExecutionSpecification>
+          <executionOccurrenceSpecification
+            Id="3b407fc6-7225-4f67-a41b-36fdf77b8f70"
+            name="ExecutionOccurrenceSpecification3">
+            <event>
+              <executionOccurrenceSpecificationReferencesEvent>
+                <executionEventMoniker
+                  Id="1fe42a65-b7c2-4f9b-8cd4-0e8aca4e598a"
+                  LastKnownName="ExecutionEvent"
+                  LastKnownLocation="Handshakes.uml" />
+              </executionOccurrenceSpecificationReferencesEvent>
+            </event>
+            <covered>
+              <lifelineMoniker
+                Id="d7299400-ca01-4445-a1b5-3891f08c42d6"
+                LastKnownName="theClient"
+                LastKnownLocation="Handshakes.uml" />
+            </covered>
+          </executionOccurrenceSpecification>
+          <messageOccurrenceSpecification
+            Id="2ee95d67-c099-4626-82fc-82946ffde08c"
+            name="MessageOccurrenceSpecification5">
+            <covered>
+              <lifelineMoniker
+                Id="45618a7c-3f92-46ad-a28b-7e7764e1d8fc"
+                LastKnownName="theServer"
+                LastKnownLocation="Handshakes.uml" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <messageOccurrenceSpecification
+            Id="b6d37768-bb7b-4220-82a5-7f5a10e5c243"
+            name="MessageOccurrenceSpecification6">
+            <covered>
+              <lifelineMoniker
+                Id="d7299400-ca01-4445-a1b5-3891f08c42d6"
+                LastKnownName="theClient"
+                LastKnownLocation="Handshakes.uml" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <messageOccurrenceSpecification
+            Id="ac65bc27-df61-4efc-96ae-1879621044ed"
+            name="MessageOccurrenceSpecification7">
+            <covered>
+              <lifelineMoniker
+                Id="d7299400-ca01-4445-a1b5-3891f08c42d6"
+                LastKnownName="theClient"
+                LastKnownLocation="Handshakes.uml" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <messageOccurrenceSpecification
+            Id="cd4e9444-26b5-41a4-84f4-be52fd7679da"
+            name="MessageOccurrenceSpecification8">
+            <covered>
+              <lifelineMoniker
+                Id="45618a7c-3f92-46ad-a28b-7e7764e1d8fc"
+                LastKnownName="theServer"
+                LastKnownLocation="Handshakes.uml" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <executionOccurrenceSpecification
+            Id="37417ff0-e563-4ddd-8dd9-3ff4894bc544"
+            name="ExecutionOccurrenceSpecification4">
+            <event>
+              <executionOccurrenceSpecificationReferencesEvent>
+                <executionEventMoniker
+                  Id="3f406dea-b0a8-413a-af23-b6f90462c70e"
+                  LastKnownName="ExecutionEvent"
+                  LastKnownLocation="Handshakes.uml" />
+              </executionOccurrenceSpecificationReferencesEvent>
+            </event>
+            <covered>
+              <lifelineMoniker
+                Id="d7299400-ca01-4445-a1b5-3891f08c42d6"
+                LastKnownName="theClient"
+                LastKnownLocation="Handshakes.uml" />
+            </covered>
+          </executionOccurrenceSpecification>
+          <behaviorExecutionSpecification
+            Id="41098fa1-9c71-4079-8044-fd70fa2e61c1"
+            name="BehaviorExecutionSpecification5">
+            <coveredLifelines>
+              <lifelineMoniker
+                Id="45618a7c-3f92-46ad-a28b-7e7764e1d8fc"
+                LastKnownName="theServer"
+                LastKnownLocation="Handshakes.uml" />
+            </coveredLifelines>
+            <finish>
+              <executionOccurrenceSpecificationMoniker
+                Id="fe6aef62-8cbb-4636-b45c-3c0521520d01"
+                LastKnownName="ExecutionOccurrenceSpecification10"
+                LastKnownLocation="Handshakes.uml" />
+            </finish>
+            <start>
+              <executionOccurrenceSpecificationMoniker
+                Id="e04deac4-53d6-490c-8500-e9724dac69df"
+                LastKnownName="ExecutionOccurrenceSpecification9"
+                LastKnownLocation="Handshakes.uml" />
+            </start>
+            <nestedOccurrences>
+              <messageOccurrenceSpecificationMoniker
+                Id="43160171-c6a4-4c1a-a22b-8d45e0740fa0"
+                LastKnownName="MessageOccurrenceSpecification18"
+                LastKnownLocation="Handshakes.uml" />
+            </nestedOccurrences>
+          </behaviorExecutionSpecification>
+          <executionOccurrenceSpecification
+            Id="e04deac4-53d6-490c-8500-e9724dac69df"
+            name="ExecutionOccurrenceSpecification9">
+            <event>
+              <executionOccurrenceSpecificationReferencesEvent>
+                <executionEventMoniker
+                  Id="f18c45e2-3e6b-4286-a412-3f5afda6c7cd"
+                  LastKnownName="ExecutionEvent"
+                  LastKnownLocation="Handshakes.uml" />
+              </executionOccurrenceSpecificationReferencesEvent>
+            </event>
+            <covered>
+              <lifelineMoniker
+                Id="45618a7c-3f92-46ad-a28b-7e7764e1d8fc"
+                LastKnownName="theServer"
+                LastKnownLocation="Handshakes.uml" />
+            </covered>
+          </executionOccurrenceSpecification>
+          <messageOccurrenceSpecification
+            Id="0fc23df3-c16a-48af-b20e-4197d10f0990"
+            name="MessageOccurrenceSpecification17">
+            <covered>
+              <lifelineMoniker
+                Id="d7299400-ca01-4445-a1b5-3891f08c42d6"
+                LastKnownName="theClient"
+                LastKnownLocation="Handshakes.uml" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <messageOccurrenceSpecification
+            Id="43160171-c6a4-4c1a-a22b-8d45e0740fa0"
+            name="MessageOccurrenceSpecification18">
+            <covered>
+              <lifelineMoniker
+                Id="45618a7c-3f92-46ad-a28b-7e7764e1d8fc"
+                LastKnownName="theServer"
+                LastKnownLocation="Handshakes.uml" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <executionOccurrenceSpecification
+            Id="fe6aef62-8cbb-4636-b45c-3c0521520d01"
+            name="ExecutionOccurrenceSpecification10">
+            <event>
+              <executionOccurrenceSpecificationReferencesEvent>
+                <executionEventMoniker
+                  Id="afeab033-0421-48a2-b63f-d762ff51c187"
+                  LastKnownName="ExecutionEvent"
+                  LastKnownLocation="Handshakes.uml" />
+              </executionOccurrenceSpecificationReferencesEvent>
+            </event>
+            <covered>
+              <lifelineMoniker
+                Id="45618a7c-3f92-46ad-a28b-7e7764e1d8fc"
+                LastKnownName="theServer"
+                LastKnownLocation="Handshakes.uml" />
+            </covered>
+          </executionOccurrenceSpecification>
+          <behaviorExecutionSpecification
+            Id="107d16ea-4752-4bfc-917e-cd7ff9907c9b"
+            name="BehaviorExecutionSpecification6">
+            <coveredLifelines>
+              <lifelineMoniker
+                Id="45618a7c-3f92-46ad-a28b-7e7764e1d8fc"
+                LastKnownName="theServer"
+                LastKnownLocation="Handshakes.uml" />
+            </coveredLifelines>
+            <finish>
+              <executionOccurrenceSpecificationMoniker
+                Id="bfe5369c-6c32-4e16-a163-54817aabd524"
+                LastKnownName="ExecutionOccurrenceSpecification12"
+                LastKnownLocation="Handshakes.uml" />
+            </finish>
+            <start>
+              <executionOccurrenceSpecificationMoniker
+                Id="0dc5b1ad-5072-433d-9747-30e80e268bdc"
+                LastKnownName="ExecutionOccurrenceSpecification11"
+                LastKnownLocation="Handshakes.uml" />
+            </start>
+            <nestedOccurrences>
+              <messageOccurrenceSpecificationMoniker
+                Id="1c1c3da8-4357-4977-94d0-70de7aa17675"
+                LastKnownName="MessageOccurrenceSpecification20"
+                LastKnownLocation="Handshakes.uml" />
+            </nestedOccurrences>
+          </behaviorExecutionSpecification>
+          <executionOccurrenceSpecification
+            Id="0dc5b1ad-5072-433d-9747-30e80e268bdc"
+            name="ExecutionOccurrenceSpecification11">
+            <event>
+              <executionOccurrenceSpecificationReferencesEvent>
+                <executionEventMoniker
+                  Id="89e9ac7e-80dc-4751-923c-52678f26bb10"
+                  LastKnownName="ExecutionEvent"
+                  LastKnownLocation="Handshakes.uml" />
+              </executionOccurrenceSpecificationReferencesEvent>
+            </event>
+            <covered>
+              <lifelineMoniker
+                Id="45618a7c-3f92-46ad-a28b-7e7764e1d8fc"
+                LastKnownName="theServer"
+                LastKnownLocation="Handshakes.uml" />
+            </covered>
+          </executionOccurrenceSpecification>
+          <messageOccurrenceSpecification
+            Id="5f0c059d-a884-49d0-8c81-6cd5649ced10"
+            name="MessageOccurrenceSpecification19">
+            <covered>
+              <lifelineMoniker
+                Id="d7299400-ca01-4445-a1b5-3891f08c42d6"
+                LastKnownName="theClient"
+                LastKnownLocation="Handshakes.uml" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <messageOccurrenceSpecification
+            Id="1c1c3da8-4357-4977-94d0-70de7aa17675"
+            name="MessageOccurrenceSpecification20">
+            <covered>
+              <lifelineMoniker
+                Id="45618a7c-3f92-46ad-a28b-7e7764e1d8fc"
+                LastKnownName="theServer"
+                LastKnownLocation="Handshakes.uml" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <executionOccurrenceSpecification
+            Id="bfe5369c-6c32-4e16-a163-54817aabd524"
+            name="ExecutionOccurrenceSpecification12">
+            <event>
+              <executionOccurrenceSpecificationReferencesEvent>
+                <executionEventMoniker
+                  Id="d0377c20-dc23-4199-8e8c-d5137081d598"
+                  LastKnownName="ExecutionEvent"
+                  LastKnownLocation="Handshakes.uml" />
+              </executionOccurrenceSpecificationReferencesEvent>
+            </event>
+            <covered>
+              <lifelineMoniker
+                Id="45618a7c-3f92-46ad-a28b-7e7764e1d8fc"
+                LastKnownName="theServer"
+                LastKnownLocation="Handshakes.uml" />
+            </covered>
+          </executionOccurrenceSpecification>
+        </fragments>
+        <lifelines>
+          <lifeline
+            Id="d7299400-ca01-4445-a1b5-3891f08c42d6"
+            name="theClient"
+            isActor="false"
+            lifelineDisplayName="theClient">
+            <topLevelOccurrences>
+              <executionOccurrenceSpecificationMoniker
+                Id="3b407fc6-7225-4f67-a41b-36fdf77b8f70"
+                LastKnownName="ExecutionOccurrenceSpecification3"
+                LastKnownLocation="Handshakes.uml" />
+              <executionOccurrenceSpecificationMoniker
+                Id="37417ff0-e563-4ddd-8dd9-3ff4894bc544"
+                LastKnownName="ExecutionOccurrenceSpecification4"
+                LastKnownLocation="Handshakes.uml" />
+              <messageOccurrenceSpecificationMoniker
+                Id="0fc23df3-c16a-48af-b20e-4197d10f0990"
+                LastKnownName="MessageOccurrenceSpecification17"
+                LastKnownLocation="Handshakes.uml" />
+              <messageOccurrenceSpecificationMoniker
+                Id="5f0c059d-a884-49d0-8c81-6cd5649ced10"
+                LastKnownName="MessageOccurrenceSpecification19"
+                LastKnownLocation="Handshakes.uml" />
+            </topLevelOccurrences>
+          </lifeline>
+          <lifeline
+            Id="45618a7c-3f92-46ad-a28b-7e7764e1d8fc"
+            name="theServer"
+            isActor="false"
+            lifelineDisplayName="theServer">
+            <topLevelOccurrences>
+              <messageOccurrenceSpecificationMoniker
+                Id="2ee95d67-c099-4626-82fc-82946ffde08c"
+                LastKnownName="MessageOccurrenceSpecification5"
+                LastKnownLocation="Handshakes.uml" />
+              <messageOccurrenceSpecificationMoniker
+                Id="cd4e9444-26b5-41a4-84f4-be52fd7679da"
+                LastKnownName="MessageOccurrenceSpecification8"
+                LastKnownLocation="Handshakes.uml" />
+              <executionOccurrenceSpecificationMoniker
+                Id="e04deac4-53d6-490c-8500-e9724dac69df"
+                LastKnownName="ExecutionOccurrenceSpecification9"
+                LastKnownLocation="Handshakes.uml" />
+              <executionOccurrenceSpecificationMoniker
+                Id="fe6aef62-8cbb-4636-b45c-3c0521520d01"
+                LastKnownName="ExecutionOccurrenceSpecification10"
+                LastKnownLocation="Handshakes.uml" />
+              <executionOccurrenceSpecificationMoniker
+                Id="0dc5b1ad-5072-433d-9747-30e80e268bdc"
+                LastKnownName="ExecutionOccurrenceSpecification11"
+                LastKnownLocation="Handshakes.uml" />
+              <executionOccurrenceSpecificationMoniker
+                Id="bfe5369c-6c32-4e16-a163-54817aabd524"
+                LastKnownName="ExecutionOccurrenceSpecification12"
+                LastKnownLocation="Handshakes.uml" />
+            </topLevelOccurrences>
+          </lifeline>
+        </lifelines>
+        <messages>
+          <message
+            Id="c2de3fe1-b963-4ff2-b04d-56fc6655f9ff"
+            name="unk"
+            messageKind="Complete"
+            messageSort="SynchCall"
+            createSelfMessage="false">
+            <sendEvent>
+              <messageOccurrenceSpecificationMoniker
+                Id="2ee95d67-c099-4626-82fc-82946ffde08c"
+                LastKnownName="MessageOccurrenceSpecification5"
+                LastKnownLocation="Handshakes.uml" />
+            </sendEvent>
+            <receiveEvent>
+              <messageOccurrenceSpecificationMoniker
+                Id="b6d37768-bb7b-4220-82a5-7f5a10e5c243"
+                LastKnownName="MessageOccurrenceSpecification6"
+                LastKnownLocation="Handshakes.uml" />
+            </receiveEvent>
+          </message>
+          <message
+            Id="6af309b3-af49-46c7-91d6-53adca02f990"
+            name="Salsa key - RSA encrypted"
+            messageKind="Complete"
+            messageSort="Reply"
+            createSelfMessage="false">
+            <sendEvent>
+              <messageOccurrenceSpecificationMoniker
+                Id="ac65bc27-df61-4efc-96ae-1879621044ed"
+                LastKnownName="MessageOccurrenceSpecification7"
+                LastKnownLocation="Handshakes.uml" />
+            </sendEvent>
+            <receiveEvent>
+              <messageOccurrenceSpecificationMoniker
+                Id="cd4e9444-26b5-41a4-84f4-be52fd7679da"
+                LastKnownName="MessageOccurrenceSpecification8"
+                LastKnownLocation="Handshakes.uml" />
+            </receiveEvent>
+          </message>
+          <message
+            Id="fbbfa63b-fc66-4cfe-9f5f-c277fd56c0d4"
+            name="Password"
+            messageKind="Complete"
+            messageSort="AsynchCall"
+            createSelfMessage="false">
+            <sendEvent>
+              <messageOccurrenceSpecificationMoniker
+                Id="0fc23df3-c16a-48af-b20e-4197d10f0990"
+                LastKnownName="MessageOccurrenceSpecification17"
+                LastKnownLocation="Handshakes.uml" />
+            </sendEvent>
+            <receiveEvent>
+              <messageOccurrenceSpecificationMoniker
+                Id="43160171-c6a4-4c1a-a22b-8d45e0740fa0"
+                LastKnownName="MessageOccurrenceSpecification18"
+                LastKnownLocation="Handshakes.uml" />
+            </receiveEvent>
+          </message>
+          <message
+            Id="3799fcc7-d4aa-4544-94b4-a4111a12c14e"
+            name="Ping packet - Salsa encrypted"
+            messageKind="Complete"
+            messageSort="AsynchCall"
+            createSelfMessage="false">
+            <sendEvent>
+              <messageOccurrenceSpecificationMoniker
+                Id="5f0c059d-a884-49d0-8c81-6cd5649ced10"
+                LastKnownName="MessageOccurrenceSpecification19"
+                LastKnownLocation="Handshakes.uml" />
+            </sendEvent>
+            <receiveEvent>
+              <messageOccurrenceSpecificationMoniker
+                Id="1c1c3da8-4357-4977-94d0-70de7aa17675"
+                LastKnownName="MessageOccurrenceSpecification20"
+                LastKnownLocation="Handshakes.uml" />
+            </receiveEvent>
+          </message>
+        </messages>
+      </interaction>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <executionEvent
+        Id="1fe42a65-b7c2-4f9b-8cd4-0e8aca4e598a"
+        name="ExecutionEvent" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <executionEvent
+        Id="3f406dea-b0a8-413a-af23-b6f90462c70e"
+        name="ExecutionEvent" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <executionEvent
+        Id="f18c45e2-3e6b-4286-a412-3f5afda6c7cd"
+        name="ExecutionEvent" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <executionEvent
+        Id="afeab033-0421-48a2-b63f-d762ff51c187"
+        name="ExecutionEvent" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <executionEvent
+        Id="89e9ac7e-80dc-4751-923c-52678f26bb10"
+        name="ExecutionEvent" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <executionEvent
+        Id="d0377c20-dc23-4199-8e8c-d5137081d598"
+        name="ExecutionEvent" />
+    </packageHasNamedElement>
+  </packagedElements>
+  <primitiveType
+    Id="220a3521-e091-4221-bae9-3ef9018e845c"
+    name="Integer"
+    isAbstract="false"
+    isLeaf="false" />
+  <primitiveType
+    Id="8943dc84-709e-4f62-b15a-a3273aa6f165"
+    name="Boolean"
+    isAbstract="false"
+    isLeaf="false" />
+  <primitiveType
+    Id="59259974-6d55-42c6-b7bd-763d77ac8ef9"
+    name="String"
+    isAbstract="false"
+    isLeaf="false" />
+  <primitiveType
+    Id="3ab42e7d-4969-445a-b209-471f5cb8209c"
+    name="UnlimitedNatural"
+    isAbstract="false"
+    isLeaf="false" />
+</modelStoreModel>
